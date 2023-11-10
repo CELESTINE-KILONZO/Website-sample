@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #333;
+   
+}
+.zero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+.zero ul {
+    display: flex;
+    gap: 10px;
+
+}
+
+.zero ul li {
+    display: flex;
+    list-style: none;
+    
+}
+
+.zero ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+margin: 10px 5px;
+color: yellow;
+
+}
+
+.logo{
+    list-style-type: none;
+    
+}
+.logo a{
+    text-decoration: none;
+    color:#ffff00cf;
+    font-weight: bold;
+    font-size: 15px;
+    position:relative;
+    left:50px
+}
+.button1{
+    border-radius: 15px;
+    background-color:yellow;
+    font-size: 10px;
+    width: 60px;
+    padding: 5px 0;
+     margin:10px 5px ;
+     color: black;
+     font-weight: bold;
+     text-align: center;
+     cursor: pointer;
+
+}
+.button2{
+    border-radius: 15px;
+    background-color:yellow;
+    font-size: 10px;
+    width: 60px;
+    padding: 5px 0;
+     margin:10px 5px ;
+     color: black;
+     font-weight: bold;
+     text-align: center;
+     cursor: pointer;
+     position: relative;
+     left:200px;
+     text-transform: capitalize;
+     
+
+}
+.params{
+position:relative;
+left: 800px;
+bottom: 300px;
+padding-top: 80px;
+
+
+
+}
+ .third{
+    margin-bottom: 20px;
+    color: yellow;
+    font-weight: bold;
+
+ }
+ .mine{
+    color: yellow;
+    padding-bottom:10px ;
+ }
+.pic{
+    width: 400px;
+    height: 300px;
+    position:relative;
+    left: 100px;
+top: 100px;
+}
